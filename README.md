@@ -7,6 +7,6 @@ We use Android studio to design this software)
 
 "Version1" file floder contains the JAVA code and XML code we used in Android studio
 
-"Picture Material" contaions the pictures we used in Android studio
+"Picture Material" file floder contaions the pictures we used in Android studio
 
 "glide-3.6.0.jar" is the lib we used to load GIF into Android studio

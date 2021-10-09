@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/background3"
+    tools:context=".EXISTROOM1RESULT">
+
+
+    <ImageView
+        android:id="@+id/img_existroom1result"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        >
+        <ImageView
+            android:id="@+id/img_existroom1resulttouzi1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="75dp"
+            android:scaleType="fitXY"
+            />
+        <ImageView
+            android:id="@+id/img_existroom1resulttouzi2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="80dp"
+            android:scaleType="fitXY"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        >
+        <ImageView
+            android:id="@+id/img_existroom1resulttouzi3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="75dp"
+            android:scaleType="fitXY"
+            />
+        <ImageView
+            android:id="@+id/img_existroom1resulttouzi4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="80dp"
+            android:scaleType="fitXY"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp"
+        >
+        <ImageView
+            android:id="@+id/img_existroom1resulttouzi5"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="75dp"
+            android:scaleType="fitXY"
+            />
+        <ImageView
+            android:id="@+id/img_existroom1resulttouzi6"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="80dp"
+            android:scaleType="fitXY"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_existroom1next"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="下一回合"
+        android:textSize="25sp"
+        android:background="@drawable/btn_enter"
+        android:layout_marginTop="40dp"
+        />
+
+</LinearLayout>

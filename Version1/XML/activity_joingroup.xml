@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/background4"
+    tools:context=".JOINGROUP">
+
+    <TextView
+        android:id="@+id/t_jointext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="请输入房间号"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        />
+
+    <EditText
+        android:id="@+id/et_joinroomnumber"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:hint="房间号"
+        android:maxLines="1"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_enter"
+        />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        >
+
+        <Button
+            android:id="@+id/btn_joinexit"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            android:textSize="15sp"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/btn_enter"
+            />
+
+        <Button
+            android:id="@+id/btn_joinenter"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="确认"
+            android:textSize="15sp"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/btn_enter"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/background3"
+    tools:context=".EXISTROOM3">
+
+    <TextView
+        android:id="@+id/t_existroom3number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="房间号:100100"
+        android:layout_gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btn_existroom3back"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="返回"
+            android:textSize="20sp"
+            android:layout_gravity="left"
+            android:layout_marginRight="216dp"
+            android:background="@drawable/btn_enter"
+            />
+        <Button
+            android:id="@+id/btn_existroom3rule"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="查看规则"
+            android:textSize="20sp"
+            android:layout_gravity="right"
+            android:background="@drawable/btn_enter"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/t_existroomround3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="玩家三的回合"
+        android:textSize="20sp"
+        android:layout_marginLeft="30dp"
+        />
+
+    <ImageView
+        android:id="@+id/img_existroom3bobing"
+        android:layout_width="280dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:id="@+id/img_existroom3member"
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"
+        android:scaleType="fitXY"
+        />
+
+    <Button
+        android:id="@+id/btn_existroom3begin"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="4dp"
+        android:text="博一博"
+        android:textSize="20sp"
+        android:background="@drawable/btn_enter"
+        />
+
+</LinearLayout>
